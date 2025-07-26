@@ -33,3 +33,12 @@ def logo():
 %sYoutube : %sAcinakongames
 
 %sTools Heck Use ID Free Fire""" % (qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu))
+  #--------------------------------Banner/LOGO------------------------------------------
+def logo():
+  print("""<your logo ascii art here>""")
+
+if __name__ == "__main__":
+    logo()
+    nom = input("Enter Target Number (without +62): ")
+    jum = int(input("Enter Number of Repeats: "))
+    main()
